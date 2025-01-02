@@ -4,7 +4,8 @@
     <img
       v-bind:src="props.image"
       alt="Character Name"
-      style="display: block; aspect-ratio: auto; height: 200px"
+      style="display: block; height: 200px"
+      class="aspect-auto"
     />
   </ul>
 </template>
