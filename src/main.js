@@ -1,5 +1,7 @@
 import "./main.css";
+import "./index.css";
 import { createApp } from "vue";
-import App from "./App.vue";
+import Task from "./Task.vue";
+// import App from "./App.vue";
 
-createApp(App).mount("#app");
+createApp(Task).mount("#app");

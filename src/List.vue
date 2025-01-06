@@ -1,5 +1,5 @@
 <template>
-  <div v-if="data">
+  <div v-if="data" class="flex flex-wrap justify-center">
     <!-- <pre>{{ JSON.stringify(data, null, 2) }}</pre> -->
     <!-- <li>{{ item.full_name }}</li>
         <img
